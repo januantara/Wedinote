@@ -176,10 +176,14 @@ const CardTamu = ({ contact, variant, message, variables }: CardTamuProps) => {
             <CardContent>
                 <Dialog>
                     <DialogTrigger asChild>
-                        <div className="flex items-center justify-between border rounded-lg p-3 hover:cursor-pointer">
+                        <button
+                            className="flex items-center justify-between border rounded-lg p-3 hover:cursor-pointer"
+                            tabIndex={0}
+                            aria-label={`Lihat pesan untuk ${contact.name}`}
+                        >
                             Lihat Pesan
-                            <EyeIcon className="h-4 w-4" />
-                        </div>
+                            <EyeIcon className="h-4 w-4" aria-hidden="true" />
+                        </button>
                     </DialogTrigger>
                     <MessageDialogContent
                         contactName={contact.name}
