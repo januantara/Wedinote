@@ -1,9 +1,7 @@
 
 <div align="center">
 
-  <img src="./public/logo.svg" alt="Wedinote Logo" width="140" />
-
-  # 💍 Wedinote
+  <img src="./public/logo.svg" alt="Wedinote Logo" width="140" style="background-color: white; padding: 12px; border-radius: 8px;" />
 
   ### Digital Wedding Invitation Manager
 
