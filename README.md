@@ -51,7 +51,9 @@
 | **Authentication** | [Better Auth](https://www.better-auth.com/) |
 | **Styling** | Tailwind CSS |
 
-## Fitur — Checklist
+---
+
+## ✅ Fitur
 
 - [x] Buat, edit, hapus template ucapan undangan
 - [x] Sisipkan variable dalam template (mis. {{nama}}, {{acara}}) untuk personalisasi pesan
@@ -63,6 +65,8 @@
 - [x] Direct share ke WhatsApp — kirim pesan yang sudah dipersonalisasi langsung ke nomor tamu
 - [x] Tombol copy/share cepat untuk setiap entri tamu
 
+---
+
 ## 🤝 Contributing
 
 1. Fork repository ini
@@ -70,5 +74,3 @@
 3. Commit perubahan (`git commit -m 'Add some AmazingFeature'`)
 4. Push ke branch (`git push origin feature/AmazingFeature`)
 5. Open Pull Request
-
----
